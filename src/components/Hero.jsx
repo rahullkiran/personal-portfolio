@@ -6,7 +6,9 @@ const hero = () => {
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
-                    <h1 className="text-sky-500 pb-16 text-6xl font-thin tracking-tighte lg:mt-16 lg:text-8xl" > Rahul Kiran</h1>
+                    <h1 className="text-sky-500 pb-16 text-6xl font-thin tracking-tighte lg:mt-16 lg:text-8xl" > 
+                        Rahul Kiran
+                    </h1>
                 </div>
             </div>
         </div>
