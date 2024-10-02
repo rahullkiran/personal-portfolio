@@ -1,3 +1,4 @@
+import ColorAnimated from "./components/gradient"
 import Hero from "./components/hero"
 import Navbar from "./components/Navbar"
 
@@ -10,6 +11,7 @@ const App = () => {
         <div className="container mx-auto px-8">
             <Navbar />
             <Hero />
+            
         </div>
     </div>
   )
