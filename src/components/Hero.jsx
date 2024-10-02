@@ -14,6 +14,10 @@ const hero = () => {
                             Rahul Kiran
                         </FancyText>
                     </h1>
+                    <span className="bg-clip-text text-4xl font-thin tracking-tight ">
+                        Computer Engineering @ York University 
+                    </span>
+                    
                 </div>
             </div>
         </div>
