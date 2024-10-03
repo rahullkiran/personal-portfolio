@@ -1,6 +1,6 @@
 import FancyText from '@carefully-coded/react-text-gradient';
 import { HERO_CONTENT } from '../constants';
-import pfp from "../assets/PumpieCheck.jpeg"; 
+import pfp from "../assets/rahulPfp.png"; 
 const hero = () => {
   return (
     <div className ="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -25,7 +25,7 @@ const hero = () => {
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <img src={pfp} alt="Rahul Kiran" />
+                    <img src={pfp} width = {650} alt="Rahul Kiran" />
                 </div>
             </div>
         </div>
