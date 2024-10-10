@@ -16,7 +16,7 @@ const hero = () => {
                         </FancyText>
                     </h1>
                     <span className="bg-clip-text text-4xl font-thin tracking-tight ">
-                        Computer Engineering @ York University !
+                        Computer Engineering @ York University
                     </span>
                     <p className="my-2 max-w-xl py-6 font-thin tracking-tighter">
                         {HERO_CONTENT}
