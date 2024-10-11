@@ -18,7 +18,7 @@ const hero = () => {
                     <span className="bg-clip-text text-4xl font-thin tracking-tight ">
                         Computer Engineering @ York University
                     </span>
-                    <p className="my-2 max-w-xl py-6 font-thin tracking-tighter">
+                    <p className="my-2 max-w-xl py-6 text-2xl font-thin tracking-tighter">
                         {HERO_CONTENT}
                     </p>
                 </div>
