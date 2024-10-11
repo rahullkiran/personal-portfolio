@@ -8,8 +8,9 @@ const About = () => {
       </h2>
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex items-center justify-center">
-              <img src={aboutImg} alt="about" />
+          <div className="flex items-center justify-center ">
+              <img src={aboutImg} class="pos" width = {650} alt="about" />
+              
           </div>
         </div>
       </div>

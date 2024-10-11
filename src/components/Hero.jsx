@@ -1,6 +1,7 @@
 import FancyText from '@carefully-coded/react-text-gradient';
 import { HERO_CONTENT } from '../constants';
 import pfp from "../assets/rahulPfp.png"; 
+import React, { useState, useEffect } from "react";
 const hero = () => {
   return (
     <div className ="border-b border-neutral-900 pb-4 lg:mb-35">
