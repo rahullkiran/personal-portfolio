@@ -48,11 +48,6 @@ const Technologies = () => {
           </h2>
         </div>
       </div>
-    {/*Experience */}
-    <div className="border-b border-neutral-900 pb-4">
-        Sep 2021 - Present
-        </div>
-
     </div>
   );
 };
