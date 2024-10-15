@@ -1,4 +1,3 @@
-import { RiReactjsLine } from "react-icons/ri";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaJava } from "react-icons/fa";

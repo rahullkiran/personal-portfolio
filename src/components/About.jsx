@@ -11,7 +11,7 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center ">
-              <img src={aboutImg} class="pos" alt="about" />
+              <img src={aboutImg} className="pos" alt="about" />
           </div>
         </div>
         <div className="w-full lg:w-1/2">

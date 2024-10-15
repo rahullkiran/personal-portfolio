@@ -17,7 +17,7 @@ export const EXPERIENCES = [
   },
   {
     year: "Jun 2020 - Sep 2020",
-    role: "Software-Engineering Co-op",
+    role: "Computer Science Co-op",
     company: "Precision e-Business Group",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],

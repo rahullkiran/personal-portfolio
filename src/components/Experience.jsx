@@ -1,6 +1,4 @@
-import React from "react";
 import { EXPERIENCES } from "../constants";
-import pfp from "../assets/rahulPfp.png";
 
 const Experience = () => {
   return (
