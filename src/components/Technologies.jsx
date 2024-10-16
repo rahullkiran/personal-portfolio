@@ -7,7 +7,9 @@ import { BsCpuFill } from "react-icons/bs";
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
-      <h2 className="my-20 text-center text-4xl font-extralight">Experience</h2>
+      <h2 className="my-20 text-center text-4xl font-thin text-cyan-400">E
+        <span className="text-neutral-50">xperience</span>
+        </h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         {/*Technologies*/}
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
