@@ -28,7 +28,7 @@ const Projects = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4100,
+    autoplaySpeed: 4100,  
   };
   return (
     <div className="border-b border-neutral-900 pb-4">
