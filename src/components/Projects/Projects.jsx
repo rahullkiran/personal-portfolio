@@ -43,11 +43,14 @@ const Projects = () => {
               return (
                 <div key={index}>
                   <div>
-                    <img src={item.image} width={300} className="-m-96 "></img>
+                    <img src={item.image} width={350} className="-m-96 "></img>
                   </div>
                   <div className="p-6">
-                    <p className="flex flex-wrap justify-center font-semibold text-white ">
+                    <p className="flex flex-wrap justify-center font-sans font-semibold text-white text-xl ">
                       {item.title}
+                    </p>
+                    <p className="flex justify-start px-10">
+                      hello
                     </p>
                   </div>
                 </div>

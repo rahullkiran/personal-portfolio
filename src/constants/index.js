@@ -5,22 +5,32 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Welcome to my digital portfolio!`;
 
-export const ABOUT_TEXT = `Skills include many things `;
+export const ABOUT_TEXT = [
+  {
+  text: "Hello World! I am Rahul Kiran, a Computer Engineering student at York University who is passionate about all things computer, including hardware amd software! My interests include:  ",
+  interests:['➤  Front-end Development: Experienced in crafting seamless user experiences and responsive functionality', 
+    '➤  Back-end Development: Built robust server-side systems to optimize performance for web applications', 
+    '➤  Hardware: Experienced in building PCs and have built projects utilising Arduino and FPGAs that blend hardware and software skills'], 
+  },
+];
+
 
 export const EXPERIENCES = [
   {
     year: "Sep 2021 - Present",
     role: "B.Eng Computer Engineering",
     company: "York University",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: ["Relevant courses: Advanced OOP, Data Structures and Algorithm, Digital Logic Design, Computer Architecture ", " Hardware: Microcontrollers, Circuit Analysis (DC/AC, RLC, Diodes, Transistors), Amplifiers, Rectifiers"],
+    
   },
   {
     year: "Jun 2020 - Sep 2020",
     role: "Computer Science Co-op",
     company: "Precision e-Business Group",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    description:[`Worked with Halton District School Board to design a productivity website for school use`,
+      'Designed front-end UI and implemented back-end functionality based on key design principles',
+      'Led team meetings to present progress reports and projections, while coordinating workload distribution through effective collaboration ']
+
   },
 ];
 
@@ -56,7 +66,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "Brampton Chandigarh ",
   phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  email: "rahulkiran698@gmail.com",
 };
