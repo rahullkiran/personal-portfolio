@@ -26,10 +26,10 @@
   .project-card {
     display: flex;
     justify-content: space-between;
-    background-color: #222;
+    background-color: #1281c21c;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #333;
+    border: 3px solid #2368b8c9;
     transition: transform 0.3s ease;
     max-width: 800px; /* Optional: Set max width for the project card */
     margin: auto;
@@ -62,8 +62,8 @@
   
   .tag {
     display: inline-block;
-    background-color: #444;
-    color: #ccc;
+    background-color: #176356b9;
+    color: #ffffff;
     border-radius: 5px;
     padding: 5px 10px;
     margin-right: 10px;

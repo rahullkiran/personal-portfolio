@@ -1,6 +1,5 @@
 import logo from "../assets/lojo.png";
-import {FaGit, FaLinkedin} from "react-icons/fa"; 
-import {FaGithub} from "react-icons/fa"; 
+import {FaGithub, FaLinkedin} from "react-icons/fa"; 
 import { SiGmail } from "react-icons/si";
 
 const navbar = () => {

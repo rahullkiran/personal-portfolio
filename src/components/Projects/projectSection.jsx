@@ -2,25 +2,39 @@ import "./projectStyle.css";
 import Slider from "react-slick";
 const projects = [
   {
-    achievement: "Project 1",
+    achievement: "Arduino Plant Watering System",
     description: [
-      "text123",
-      "text4567",
+      "- Built a self-watering plant system using an Arduino GroveBoard with moisture sensor and a MOSFET powering the water pump",
+      "- Moisture sensor constantly inputs the moisture level in soil and dispenses water when level is too low",
+      "- Programmed using Firmata4j library in Java to communicate with Arduino components",
+      "- Displays skills in electronics/hardware and programming  "
     ],
-    tags: ["Flutter (Dart)", "Firebase", "Google Cloud Platform APIs"],
+    tags: ["Arduino", "Java (Firmata4j library)", "C", "Hardware"],
     image: "something1",
     link: "#",
   },
   {
-    achievement: "Project 2",
+    achievement: "Personal Portfolio",
     description: [
-      "blah blah blah",
-      "more blah blah blahhrrhrhhrhr",
+      "- Programmed a personal portfolio website with React JS",
+      "- Project made with intention of advancing skills in web development and UI/UX design concepts",
     ],
-    tags: ["Flutter (Dart)", "Firebase", "Google Cloud Platform APIs"],
+    tags: ["React", "Node", "Tailwind", "UI/UX Design", "Web Development"],
     image: "something2",
     link: "#",
   },
+
+  {
+    achievement: "Project 3",
+    description: [
+      "909009",
+      "3534535",
+    ],
+    tags: ["Flask (Python)", "React", "Node"],
+    image: "something1",
+    link: "#",
+  },
+  
 ];
 
 const ProjectsSection = () => {
@@ -50,9 +64,9 @@ const ProjectsSection = () => {
                 <h3>{project.challenge}</h3>
                 <h2>{project.title}</h2>
                 <p>
-                  <strong>{project.achievement}</strong>
+                  <strong className="text-2xl font-semibold text-neutral-200">{project.achievement}</strong>
                 </p>
-                <div className="project-tags">
+                <div className="project-tags py-6">
                   {project.tags.map((tag, idx) => (
                     <span className="tag" key={idx}>
                       {tag}
