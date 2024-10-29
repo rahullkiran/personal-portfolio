@@ -1,17 +1,19 @@
 import "./projectStyle.css";
 import Slider from "react-slick";
+
+
 const projects = [
   {
     achievement: "Arduino Plant Watering System",
     description: [
-      "- Built a self-watering plant system using an Arduino GroveBoard with moisture sensor and a MOSFET powering the water pump",
+      "- Built a self-watering plant system using an Arduino GroveBoard with moisture sensor and MOSFET powering the water pump",
       "- Moisture sensor constantly inputs the moisture level in soil and dispenses water when level is too low",
       "- Programmed using Firmata4j library in Java to communicate with Arduino components",
       "- Displays skills in electronics/hardware and programming  "
     ],
-    tags: ["Arduino", "Java (Firmata4j library)", "C", "Hardware"],
-    image: "something1",
-    link: "#",
+    tags: ["Arduino", "Java", "C", "Hardware"],
+    image: "./public/plantwater.png",
+    link: "../Projects/plantwater.png",
   },
   {
     achievement: "Personal Portfolio",
@@ -19,7 +21,7 @@ const projects = [
       "- Programmed a personal portfolio website with React JS",
       "- Project made with intention of advancing skills in web development and UI/UX design concepts",
     ],
-    tags: ["React", "Node", "Tailwind", "UI/UX Design", "Web Development"],
+    tags: ["React", "Node","UI/UX", "Web-Dev"],
     image: "something2",
     link: "#",
   },
@@ -66,14 +68,14 @@ const ProjectsSection = () => {
                 <p>
                   <strong className="text-2xl font-semibold text-neutral-200">{project.achievement}</strong>
                 </p>
-                <div className="project-tags py-6">
+                <div className="project-tags py-6 mb-2">
                   {project.tags.map((tag, idx) => (
                     <span className="tag" key={idx}>
                       {tag}
                     </span>
                   ))}
                 </div>
-                <ul className="project-description">
+                <ul className="project-description mb-3 font-extralight">
                   {project.description.map((desc, idx) => (
                     <li key={idx}>{desc}</li>
                   ))}
@@ -82,8 +84,8 @@ const ProjectsSection = () => {
                   Check it out →
                 </a>
               </div>
-              <div className="project-image">
-                <img src={project.image} alt={`${project.title} logo`} />
+              <div className="">
+              <img src={project.image} width={300} alt={`${project.achievement} image`} />
               </div>
             </div>
           </div>

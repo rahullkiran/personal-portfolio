@@ -5,6 +5,7 @@ import { FaPython } from "react-icons/fa";
 import { SiCplusplus } from "react-icons/si";
 import { BsCpuFill } from "react-icons/bs";
 import { motion } from "framer-motion";
+
 const iconVar = (duration) => ({
   initial: { y: -10 },
   animate: {
