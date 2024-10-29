@@ -1,5 +1,7 @@
 import "./projectStyle.css";
 import Slider from "react-slick";
+
+
 const projects = [
   {
     achievement: "Arduino Plant Watering System",
@@ -10,8 +12,8 @@ const projects = [
       "- Displays skills in electronics/hardware and programming  "
     ],
     tags: ["Arduino", "Java (Firmata4j library)", "C", "Hardware"],
-    image: "something1",
-    link: "#",
+    image: "",
+    link: "",
   },
   {
     achievement: "Personal Portfolio",
