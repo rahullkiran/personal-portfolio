@@ -22,18 +22,19 @@ const projects = [
       "- Project made with intention of advancing skills in web development and UI/UX design concepts",
     ],
     tags: ["React", "Node","UI/UX", "Web-Dev"],
-    image: "something2",
+    image: "./public/portfolio-pic.png",
     link: "#",
   },
 
   {
-    achievement: "Project 3",
+    achievement: "Stock Analyser",
     description: [
-      "909009",
-      "3534535",
+      "- Developed a website that can provide analysis on stocks",
+      "- Developed using the Flask framework to run dynamic python web application ",
+      "- Interactive data visualtion using News API and Yahoo Finance API    ", 
     ],
     tags: ["Flask (Python)", "React", "Node"],
-    image: "something1",
+    image: "./public/stockproject.png",
     link: "#",
   },
   
@@ -84,8 +85,8 @@ const ProjectsSection = () => {
                   Check it out →
                 </a>
               </div>
-              <div className="">
-              <img src={project.image} width={300} alt={`${project.achievement} image`} />
+              <div className="px-2">
+              <img src={project.image} width={320} alt={`${project.achievement} image`} />
               </div>
             </div>
           </div>
