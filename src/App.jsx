@@ -6,7 +6,6 @@ import Experience from "./components/Experience"
 import Projects from "./components/Projects/Projects"
 import Contact from "./components/Contact"
 import ProjectsSection from "./components/Projects/projectSection"
-import Typerz from "./components/Typerz"
 
 
 
@@ -25,7 +24,6 @@ const App = () => {
             <Experience />
             <ProjectsSection />
             <Contact />
-            <Typerz />
         </div>
     </div>
   )
