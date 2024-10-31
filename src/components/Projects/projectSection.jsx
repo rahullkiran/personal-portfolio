@@ -13,7 +13,7 @@ const projects = [
     ],
     tags: ["Arduino", "Java", "C", "Hardware"],
     image: "./public/plantwater.png",
-    link: "../Projects/plantwater.png",
+    link: "/plantwater.png",
   },
   {
     achievement: "Personal Portfolio",
@@ -22,7 +22,7 @@ const projects = [
       "- Project made with intention of advancing skills in web development and UI/UX design concepts",
     ],
     tags: ["React", "Node","UI/UX", "Web-Dev"],
-    image: "./public/portfolio-pic.png",
+    image: "/portfolio-pic.png",
     link: "#",
   },
 
@@ -34,7 +34,7 @@ const projects = [
       "- Interactive data visualtion using News API and Yahoo Finance API    ", 
     ],
     tags: ["Flask (Python)", "React", "Node"],
-    image: "./public/stockproject.png",
+    image: "/stockproject.png",
     link: "#",
   },
   

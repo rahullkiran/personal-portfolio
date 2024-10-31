@@ -2,6 +2,7 @@ import FancyText from "@carefully-coded/react-text-gradient";
 import { HERO_CONTENT } from "../constants";
 import pfp from "../assets/rahulPfp.png";
 import { motion } from "framer-motion";
+import { Typed } from "react-typed";
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: { x: 0, opacity: 1, transition: { duration: 0.5, delay: delay } },
@@ -32,7 +33,7 @@ const hero = () => {
             initial="hidden"
             animate="visible"
             className="bg-clip-text text-4xl font-thin tracking-tight ">
-              Computer Engineering @ York University
+        
             </motion.span>
             <motion.p
             variants={container(1)}
