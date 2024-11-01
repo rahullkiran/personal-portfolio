@@ -66,7 +66,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Brampton Chandigarh ",
-  phoneNo: "+12 4555 666 00 ",
+  address: "I am always looking forward to take on new and exciting projects/opportunities! ",
+  phoneNo: "Please feel free to reach out to my email for any inquires at any time!",
   email: "rahulkiran698@gmail.com",
 };
