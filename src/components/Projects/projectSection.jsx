@@ -13,7 +13,7 @@ const projects = [
     ],
     tags: ["Arduino", "Java", "C", "Hardware"],
     image: "./public/plantwater.png",
-    link: "/plantwater.png",
+    link: "https://github.com/rahullkiran/Plant-Watering-System",
   },
   {
     achievement: "Personal Portfolio",
@@ -23,7 +23,7 @@ const projects = [
     ],
     tags: ["React", "Node","UI/UX", "Web-Dev"],
     image: "/portfolio-pic.png",
-    link: "#",
+    link: "https://github.com/rahullkiran/personal-portfolio",
   },
 
   {
