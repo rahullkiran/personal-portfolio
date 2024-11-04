@@ -43,8 +43,7 @@ const hero = () => {
                   typeSpeed={80}
                   backSpeed={95}
                   loop
-                >
-                </ReactTyped>
+                ></ReactTyped>
               </motion.span>
             </div>
             <motion.p
@@ -64,7 +63,7 @@ const hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={pfp}
-              style={{ borderRadius: '5%' }}
+              style={{ borderRadius: "5%" }}
               width={550}
               alt="Rahul Kiran"
             />
