@@ -1,6 +1,6 @@
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
-import { SiGmail } from "react-icons/si";
+
 const Contact = () => {
   return (
     <div className="border-b border-neutral-900 pb-20">

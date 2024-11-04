@@ -1,6 +1,6 @@
 import FancyText from "@carefully-coded/react-text-gradient";
 import { HERO_CONTENT } from "../constants";
-import pfp from "../assets/rahulPfp.png";
+import pfp from "../assets/rahulPfp.jpg";
 import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
 const container = (delay) => ({
@@ -64,7 +64,8 @@ const hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={pfp}
-              width={650}
+              style={{ borderRadius: '5%' }}
+              width={550}
               alt="Rahul Kiran"
             />
           </div>
