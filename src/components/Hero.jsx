@@ -40,8 +40,8 @@ const hero = () => {
                     "Experienced in full-stack software development",
                     "Experienced with computer hardware and electronics",
                   ]}
-                  typeSpeed={80}
-                  backSpeed={95}
+                  typeSpeed={60}
+                  backSpeed={40}
                   loop
                 ></ReactTyped>
               </motion.span>
