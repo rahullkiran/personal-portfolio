@@ -11,7 +11,7 @@ const projects = [
       "- Displays skills in electronics/hardware and programming  ",
     ],
     tags: ["Arduino", "Java", "C", "Hardware"],
-    image: "./public/portfolio-pic.png",
+    image: "./public/plantwater.png",
     link: "https://github.com/rahullkiran/Plant-Watering-System",
   },
   {
@@ -86,11 +86,7 @@ const ProjectsSection = () => {
                   </a>
                 </div>
                 <div className="px-2">
-                  <img
-                    src={project.image}
-                    width={320}
-                    alt={`${project.achievement} image`}
-                  />
+                  <img src={project.image} width={320} alt={``} />
                 </div>
               </div>
             </div>
