@@ -11,7 +11,7 @@ const projects = [
       "- Displays skills in electronics/hardware and programming  ",
     ],
     tags: ["Arduino", "Java", "C", "Hardware"],
-    image: "./public/plantwater.png",
+    image: "./public/portfolio-pic.png",
     link: "https://github.com/rahullkiran/Plant-Watering-System",
   },
   {

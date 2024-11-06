@@ -52,7 +52,7 @@ const Projects = () => {
                       {item.title}
                     </p>
                     <p className="flex justify-start px-10">
-                      hello
+                      Test
                     </p>
                   </div>
                 </div>
