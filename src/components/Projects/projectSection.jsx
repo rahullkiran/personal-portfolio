@@ -28,8 +28,8 @@ const projects = [
     achievement: "Stock Analyser",
     description: [
       "- Developed a website that can provide analysis on stocks",
-      "- Developed using the Flask framework to run dynamic python web application ",
-      "- Interactive data visualtion using News API and Yahoo Finance API    ",
+      "- Developed using the Flask framework to run dynamic Python web application ",
+      "- Interactive data visualization using News API and Yahoo Finance API    ",
     ],
     tags: ["Flask (Python)", "React", "Node"],
     image: "/stockproject.png",
