@@ -7,7 +7,7 @@ export const HERO_CONTENT = `Computer Engineering @ York University`;
 
 export const ABOUT_TEXT = [
   {
-  text: "Hello World! I am Rahul Kiran, a Computer Engineering student at York University who is passionate about all things computer, including hardware amd software! My interests include:  ",
+  text: "Hello World! I am Rahul Kiran, a Computer Engineering student at York University who is passionate about all things computer, including hardware and software! My interests include:  ",
   interests:['➤  Front-end Development: Experienced in crafting seamless user experiences and responsive functionality', 
     '➤  Back-end Development: Built robust server-side systems to optimize performance for web applications', 
     '➤  Hardware: Experienced in building PCs and have built projects utilising Arduino and FPGAs that blend hardware and software skills'], 
