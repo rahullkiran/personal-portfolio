@@ -2,7 +2,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
-import { SiCplusplus } from "react-icons/si";
+import { SiCplusplus, SiDocker } from "react-icons/si";
 import { BsCpuFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 
@@ -18,6 +18,7 @@ const iconVar = (duration) => ({
     },
   },
 });
+
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
@@ -99,6 +100,17 @@ const Technologies = () => {
           <BsCpuFill className="text-8xl text-green-300 gap-3" />
           <h2 className="my-2 px-1 text-2l font-extralight justify-center flex flex-wrap">
             Verilog HDL
+          </h2>
+        </motion.div>
+        <motion.div
+          variants={iconVar(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiDocker className="text-8xl text-blue-600 gap-3" />
+          <h2 className="my-2 px-1 text-2l font-extralight justify-center flex flex-wrap">
+            Docker
           </h2>
         </motion.div>
       </motion.div>

@@ -1,2 +1,2 @@
 # personal-portfolio
- Personal portfolio website 
+ Personal portfolio website made using ReactJS
