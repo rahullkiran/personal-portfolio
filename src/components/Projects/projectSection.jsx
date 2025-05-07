@@ -35,10 +35,19 @@ const projects = [
     image: "/stockproject.png",
     link: "https://github.com/rahullkiran/StockAnalyzer",
   },
+  {
+    achievement: "System Resources Monitor",
+    description: [
+      "- Developed a a full-stack web tool to monitor real-time system metrics (CPU, memory, disk)",
+      "- Visualize usage history with a real-time graph using Recharts, and generate alerts when thresholds are exceeded",
+      "- Includes threshold configuration, historical charts with toggles, auto-refresh, and full Dockerization",
+    ],
+    tags: ["Python", "FastAPI", "psutil", "ReactJS", "Docker"],
+    image: "/sysMonitor.png",
+  },
 ];
 
 const ProjectsSection = () => {
-  // Slick slider settings
   const settings = {
     dots: false,
     infinite: true,

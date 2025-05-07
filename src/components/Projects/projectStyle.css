@@ -31,7 +31,7 @@
     border-radius: 10px;
     border: 3px solid #2368b8c9;
     transition: transform 0.3s ease;
-    max-width: 800px; /* Optional: Set max width for the project card */
+    max-width: 800px;
     margin: auto;
   }
   
@@ -89,6 +89,6 @@
 
   
   .slick-prev:before, .slick-next:before {
-    color: #00c3ff; /* Change arrow color */
+    color: #00c3ff; 
   }
   

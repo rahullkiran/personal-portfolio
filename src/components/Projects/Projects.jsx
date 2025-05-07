@@ -2,26 +2,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-
-
-const projectImages = [
-  {
-    image: "src/assets/projects/project-1.jpg",
-    title: "project1",
-  },
-  {
-    image: "src/assets/projects/project-2.jpg",
-    title: "project2",
-  },
-  {
-    image: "src/assets/projects/project-3.jpg",
-    title: "project3",
-  },
-  {
-    image: "src/assets/projects/project-4.jpg",
-    title: "project4",
-  },
-];
 const Projects = () => {
   var settings = {
     dots: true,
@@ -52,7 +32,6 @@ const Projects = () => {
                       {item.title}
                     </p>
                     <p className="flex justify-start px-10">
-                      Test
                     </p>
                   </div>
                 </div>
