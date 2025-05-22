@@ -44,6 +44,7 @@ const projects = [
     ],
     tags: ["Python", "FastAPI", "psutil", "ReactJS", "Docker"],
     image: "/sysMonitor.png",
+    link: "https://github.com/rahullkiran/system-monitor"
   },
 ];
 
