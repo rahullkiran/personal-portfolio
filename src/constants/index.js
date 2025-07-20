@@ -1,4 +1,4 @@
-export const HERO_CONTENT = `Computer Engineering @ York University`;
+export const HERO_CONTENT = `Studying Computer Engineering @ York University`;
 
 export const ABOUT_TEXT = [
   {
@@ -16,6 +16,16 @@ export const EXPERIENCES = [
     role: "B.Eng Computer Engineering",
     company: "York University",
     description: ["Relevant courses: Advanced OOP, Data Structures and Algorithm, Digital Logic Design, Computer Architecture ", " Hardware: Microcontrollers, Circuit Analysis (DC/AC, RLC, Diodes, Transistors), Amplifiers, Rectifiers"],
+    
+  },
+  {
+    year: "Jun 2025 - Present",
+    role: "Computer Engineering Intern",
+    company: "ezSCM",
+    description:[`Contributed to the development of enterprise-level supply chain management systems using React, Redux, and
+    TypeScript`,
+      'Optimized mobile components in React Native, improving app load time by 20% through memoization and lazy loading',
+      'Built and tested scalable REST APIs for integrations with platforms like Shopify, Amazon, and Shiprocket, supporting multi-channel order sync and fulfillment automation']
     
   },
   {

@@ -36,7 +36,8 @@ const hero = () => {
               >
                 <ReactTyped
                   strings={[
-                    "Currently seeking Winter/Summer 2025 internships",
+                    "Computer Engineering Intern for ezSCM",
+                    "Seeking Fall 2025/Winter 2026 internships",
                     "Experienced in full-stack software development",
                     "Experienced with computer hardware and electronics",
                   ]}
@@ -73,5 +74,5 @@ const hero = () => {
     </div>
   );
 };
-//this is  atest
+
 export default hero;
