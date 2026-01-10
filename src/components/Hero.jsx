@@ -36,8 +36,8 @@ const hero = () => {
               >
                 <ReactTyped
                   strings={[
-                    "Computer Engineering Intern for ezSCM",
-                    "Seeking Fall 2025/Winter 2026 internships",
+                    "Prev. Computer Engineering Intern @ ezSCM",
+                    "Seeking Summer 2026 internships",
                     "Experienced in full-stack software development",
                     "Experienced with computer hardware and electronics",
                   ]}

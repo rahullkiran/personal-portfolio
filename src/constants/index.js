@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     
   },
   {
-    year: "Jun 2025 - Present",
+    year: "Jun 2025 - Dec 2025",
     role: "Computer Engineering Intern",
     company: "ezSCM",
     description:[`Contributed to the development of enterprise-level supply chain management systems using React, Redux, and

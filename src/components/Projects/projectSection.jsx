@@ -8,7 +8,7 @@ const projects = [
       "- Built a self-watering plant system using an Arduino GroveBoard with moisture sensor and MOSFET powering the water pump",
       "- Moisture sensor constantly inputs the moisture level in soil and dispenses water when level is too low",
       "- Programmed using Firmata4j library in Java to communicate with Arduino components",
-      "- Displays skills in electronics/hardware and programming  ",
+      "- Displays skills in electronics/hardware and programming",
     ],
     tags: ["Arduino", "Java", "C", "Hardware"],
     image: "/plantwater.png",
@@ -18,33 +18,33 @@ const projects = [
     achievement: "Personal Portfolio",
     description: [
       "- Programmed a personal portfolio website with React JS",
-      "- Project made with intention of advancing skills in web development and UI/UX design concepts",
+      "- Advanced skills in web development and UI/UX design concepts",
     ],
     tags: ["React", "Node", "UI/UX", "Web-Dev"],
     image: "/portfolio-pic.png",
     link: "https://github.com/rahullkiran/personal-portfolio",
   },
   {
-    achievement: "Stock Analyser",
+    achievement: "Railway Defect Detection System",
     description: [
-      "- Developed a website that can provide analysis on stocks",
-      "- Developed using the Flask framework to run dynamic Python web application ",
-      "- Interactive data visualization using News API and Yahoo Finance API    ",
+      "- Built a real-time computer vision system using YOLOv8, achieving 91.2% mAP and 91.3% recall at 97 FPS on Apple M1 GPU",
+      "- Designed full ML pipeline including preprocessing, annotation conversion, and transfer learning on 383 labeled images",
+      "- Deployed using Docker Compose with PostgreSQL logging and MLflow experiment tracking",
     ],
-    tags: ["Flask (Python)", "React", "Node"],
-    image: "/stockproject.png",
-    link: "https://github.com/rahullkiran/StockAnalyzer",
+    tags: ["Python", "PyTorch", "OpenCV", "YOLOv8", "PostgreSQL", "MLflow", "Docker"],
+    image: "/Railway_Defect_Detect.jpg",
+    link: "https://github.com/rahullkiran/Railway_Defect_Detection",
   },
   {
     achievement: "System Resources Monitor",
     description: [
-      "- Developed a a full-stack web tool to monitor real-time system metrics (CPU, memory, disk)",
-      "- Visualize usage history with a real-time graph using Recharts, and generate alerts when thresholds are exceeded",
-      "- Includes threshold configuration, historical charts with toggles, auto-refresh, and full Dockerization",
+      "- Full-stack tool to monitor CPU, memory, disk usage in real-time",
+      "- Recharts-based live graphs with alerts and threshold configuration",
+      "- Auto-refreshing system with Dockerized deployment",
     ],
     tags: ["Python", "FastAPI", "psutil", "ReactJS", "Docker"],
     image: "/sysMonitor.png",
-    link: "https://github.com/rahullkiran/system-monitor"
+    link: "https://github.com/rahullkiran/system-monitor",
   },
 ];
 
@@ -65,43 +65,40 @@ const ProjectsSection = () => {
       <h2 className="my-20 text-center text-4xl font-thin text-cyan-400">
         P<span className="text-neutral-50">rojects</span>
       </h2>
-      <div className="py-2">
-        <Slider {...settings}>
-          {projects.map((project, index) => (
-            <div className="project-slide" key={index}>
-              <div className="project-card">
-                <div className="project-info">
-                  <h3>{project.challenge}</h3>
-                  <h2>{project.title}</h2>
-                  <p>
-                    <strong className="text-2xl font-semibold text-neutral-200">
-                      {project.achievement}
-                    </strong>
-                  </p>
-                  <div className="project-tags py-6 mb-2">
-                    {project.tags.map((tag, idx) => (
-                      <span className="tag" key={idx}>
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                  <ul className="project-description mb-3 font-extralight">
-                    {project.description.map((desc, idx) => (
-                      <li key={idx}>{desc}</li>
-                    ))}
-                  </ul>
-                  <a href={project.link} className="project-link-btn">
-                    Check it out →
-                  </a>
+
+      <Slider {...settings}>
+        {projects.map((project, index) => (
+          <div className="project-slide" key={index}>
+            <div className="project-card">
+              <div className="project-info">
+                <h2 className="project-title">{project.achievement}</h2>
+
+                <div className="project-tags">
+                  {project.tags.map((tag, idx) => (
+                    <span className="tag" key={idx}>
+                      {tag}
+                    </span>
+                  ))}
                 </div>
-                <div className="px-2">
-                  <img src={project.image} width={320} alt={``} />
-                </div>
+
+                <ul className="project-description">
+                  {project.description.map((desc, idx) => (
+                    <li key={idx}>{desc}</li>
+                  ))}
+                </ul>
+
+                <a href={project.link} className="project-link-btn">
+                  Check it out →
+                </a>
+              </div>
+
+              <div className="project-image">
+                <img src={project.image} alt="" />
               </div>
             </div>
-          ))}
-        </Slider>
-      </div>
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };
