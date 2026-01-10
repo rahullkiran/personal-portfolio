@@ -18,7 +18,7 @@ const projects = [
     achievement: "Personal Portfolio",
     description: [
       "- Programmed a personal portfolio website with React JS",
-      "- Advanced skills in web development and UI/UX design concepts",
+      "- Project made with intention of advancing skills in web development and UI/UX design concepts",
     ],
     tags: ["React", "Node", "UI/UX", "Web-Dev"],
     image: "/portfolio-pic.png",
@@ -27,7 +27,8 @@ const projects = [
   {
     achievement: "Railway Defect Detection System",
     description: [
-      "- Built a real-time computer vision system using YOLOv8, achieving 91.2% mAP and 91.3% recall at 97 FPS on Apple M1 GPU",
+      "- Developed a real-time AI system to automatically detect and track railway defects",
+      "- Computer vision system uses YOLOv8, achieving 91.2% mAP and 91.3% recall at 97 FPS on Apple M1 GPU",
       "- Designed full ML pipeline including preprocessing, annotation conversion, and transfer learning on 383 labeled images",
       "- Deployed using Docker Compose with PostgreSQL logging and MLflow experiment tracking",
     ],
@@ -38,9 +39,9 @@ const projects = [
   {
     achievement: "System Resources Monitor",
     description: [
-      "- Full-stack tool to monitor CPU, memory, disk usage in real-time",
-      "- Recharts-based live graphs with alerts and threshold configuration",
-      "- Auto-refreshing system with Dockerized deployment",
+      "- Developed a full-stack tool to monitor CPU, memory, disk usage metrics in real-time",
+      "- Visualizes usage history with a real-time graph using Recharts, and generate alerts when thresholds are exceeded",
+      "- Includes threshold configuration, historical charts with toggles, auto-refresh, and full Dockerization",
     ],
     tags: ["Python", "FastAPI", "psutil", "ReactJS", "Docker"],
     image: "/sysMonitor.png",
